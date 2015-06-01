@@ -24,8 +24,6 @@ class DafCopyWordAboveSimpleCommand(sublime_plugin.TextCommand):
         punto_escritura = self.view.text_point(inirow,inicol)
         punto_lectura = self.view.text_point(inirow-1,inicol)
         char_a_copiar = self.view.word(punto_lectura)
-        # sublime.message_dialog(self.view.substr(char_a_copiar))
-        # self.view.insert(edit, punto_escritura,'tttt')
         self.view.insert(edit, punto_escritura,self.view.substr(char_a_copiar))
         return
 
