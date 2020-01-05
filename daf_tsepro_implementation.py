@@ -3,7 +3,6 @@ import datetime
 from package_control.console_write import console_write
 
 # you may copy this file into your Package/User directory
-
 class DafCopyCharAboveSimpleCommand(sublime_plugin.TextCommand):
     # daf_copy_char_above_simple
     def run(self, edit):
