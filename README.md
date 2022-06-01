@@ -1,3 +1,5 @@
+## notes about text editors
+
 # sublime-text-2
 A sublime text 2 implementation of TSEpro
 
